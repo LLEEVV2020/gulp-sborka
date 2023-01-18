@@ -2,5 +2,5 @@
   @include flex-v-center;
 }
 .header-contacts__link{
-
+  @include flex-column-start;
 }
