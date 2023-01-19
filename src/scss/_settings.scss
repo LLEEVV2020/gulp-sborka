@@ -106,3 +106,65 @@ a {
 .page--ios .dis-scroll {
   position: relative;
 }
+
+.main-title{
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 130%;
+  letter-spacing: 1px;
+  color: var(--color-ebony);
+
+  text-transform: uppercase;
+  span{
+    color: var(--color-primary);
+  }
+
+  &--home{
+    color: var(--color-light);
+  }
+}
+
+.main-descr{
+  margin: 0;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--color-storm);
+  &--home{
+    color: var(--color-light);
+    margin-bottom: 61px;
+  }
+}
+
+.btn{
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  color: var(--color-light);
+  padding: 16px 39px;
+  &--fill{
+    background-color: var(--color-primary);
+
+  }
+  &--stroke{
+
+    &-light{
+      border-color: var(--color-light);
+    }
+  }
+}
+
+.hero__btns{
+  .btn{
+    &:not(:last-child){
+      margin-right: 20px;
+    }
+  }
+}

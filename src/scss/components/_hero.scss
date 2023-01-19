@@ -1,9 +1,13 @@
 .hero{
-  color: var(--color-light);
   background-color: var(--color-gray);
   background-image: url("../img/hero-bg.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
+  padding-bottom: 352px;
+  padding-top: 221px;
 }
+.hero__content{
+  max-width: 590px;
+}
+
