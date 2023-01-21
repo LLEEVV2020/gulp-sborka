@@ -1,0 +1,28 @@
+.video-block{
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  height: 500px;
+
+  &__content{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.video-block__play{
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  svg{
+    width: 26px;
+    height: 26px;
+    fill: #fff;
+  }
+}
